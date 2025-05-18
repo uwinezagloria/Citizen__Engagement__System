@@ -3,6 +3,7 @@ import dotenv from "dotenv"
 import mongoose from "mongoose"
 import cors from "cors"
 import { errorHandler } from "./middlewares/errorHandler.js"
+import router from "./routes/index.routes.js"
 dotenv.config()
 
 const app=express()
